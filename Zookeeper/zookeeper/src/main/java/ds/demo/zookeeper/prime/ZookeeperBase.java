@@ -1,6 +1,5 @@
 package ds.demo.zookeeper.prime;
 
-import java.io.IOException;
 import java.util.concurrent.CountDownLatch;
 
 import org.apache.zookeeper.CreateMode;
@@ -11,6 +10,7 @@ import org.apache.zookeeper.Watcher.Event.KeeperState;
 import org.apache.zookeeper.ZooDefs.Ids;
 import org.apache.zookeeper.ZooKeeper;
 
+//ref: https://blog.csdn.net/haoyuyang/article/details/53436625
 public class ZookeeperBase {
 
     static final String CONNECT_ADDR = "10.0.112.95:2181";
